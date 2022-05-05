@@ -6,32 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ND Blog WebSite</title>
     <style>
-      * {
-        border: 1px red solid;
-      }
+      /* * {
+        border: 1px solid red;
+      } */
 
       .container {
+          display: grid;
         color: black;
         margin: auto;
-        grid-template-columns: 100px 150px 200px;
-        grid-template-rows: 100px 120px 100px;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 45vh 45vh;
+        grid-gap: 15px;
         width: 100%;
+        grid-template-areas:
+          "Top Top"
+          "BottomLeft BottomRight" ;
         justify-content: center;
       }
 
       .box {
-        color: blue;
         display: flex;
-        flex-direction: column;
+        color: blue;
+        align-items: center;
+        justify-content: center;
+        /* display: flex; */
+        /* flex-direction: column; */
+        border: 2px solid red;
+      }
+      #one {
+        grid-area: Top;
+      }
+
+      #two {
+        grid-area: BottomLeft;
+      }
+      #three {
+        grid-area: BottomRight;
       }
     </style>
   </head>
   <body>
     <h1>ND Blog</h1>
     <div class="container">
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="bo"></div>
+      <div class="box" id="one"></div>
+      <div class="box" id="two"></div>
+      <div class="box" id="three"></div>
     </div>
   </body>
 </html>
