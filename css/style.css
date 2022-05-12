@@ -1,51 +1,60 @@
-.container{
-  display:grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 250px 600px;
-  /* Initially each element has its own row for small screens */
-  grid-template-areas: 
-  "hd"
-  "sd"
-  "main"
-  "ft";
-  border: 2px solid rgb(39, 39, 22);
+/* * {
+        border: 2px solid red;
+      } */
+
+* {
+  /* width: 251px;
+          height: 151px; */
+  border: 2px solid red;
+  background: #d9d8cd;
 }
-/* add css for nested grid here */
-.nestedGrid{
+.container {
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 251px 600px;
+  grid-template-areas:
+    "hd hd hd hd hd hd hd hd"
+    "sd main main main main main main main"
+    "ft ft ft ft ft ft ft ft";
+  border: 3px solid rgb(151, 151, 125);
 }
-.nestedGrid > *{
-  border: 2px solid aquamarine;
+
+header {
+  /* row start/column start/ row end/ column end */
+  grid-area: hd;
 }
-.box{
-    border: 1px solid red;
-    background: #d1d1cb;
-    }
-  .header{
-    /* row start/column start/ row end/ column end */
-    grid-area:hd;
-  }
-  .footer{
-    grid-area: ft;  
-  }
-  .sidebar{
-    grid-area: sd;
-  }
-  .content{
-    grid-area: main;
-  }
-/* If Screen Is Wide Enough */
-@media(min-width:900px) {
-.container{
-      display:grid;
-      grid-template-columns: 300px 300px 300px;
-      grid-template-rows: 250px 600px;
-      grid-template-areas: 
-      "hd hd hd hd hd hd hd hd"
-      "sd sd main main main main main main"
-      "ft ft ft ft ft ft ft ft";
-      border: 2px solid red;
-  }
+
+footer {
+  grid-area: ft;
+}
+sidebar {
+  grid-area: sd;
+}
+main {
+  grid-area: main;
+}
+
+article h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+article ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+article h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+article li {
+  padding-top: 1%;
+}
+
+article p {
+  font-size: 1.1em;
+  margin: 0 10% 0 10%;
+  line-height: 2;
 }
