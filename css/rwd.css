@@ -1,0 +1,38 @@
+@media (min-width: 768px) {
+    .container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 251px 600px;
+      grid-template-areas:
+        "hd hd hd hd hd hd hd hd"
+        "sd main main main main main main main"
+        "ft ft ft ft ft ft ft ft";
+      border: 3px solid rgb(151, 151, 125);
+    }
+    article h3 {
+      text-align: center;
+      font-weight: bold;
+    }
+    
+    article ul {
+      text-align: center;
+      list-style-type: none;
+    }
+    
+    article h4 {
+      text-align: center;
+      font-weight: bold;
+    }
+    
+    article li {
+      padding-top: 1%;
+    }
+    
+    article p {
+      font-size: 1.1em;
+      margin: 0 10% 0 10%;
+      line-height: 2;
+    }
+    
+  
+  }
