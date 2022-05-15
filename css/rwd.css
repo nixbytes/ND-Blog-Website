@@ -1,3 +1,4 @@
+/* Main css style for anything beyond the 768px size */
 @media (min-width: 768px) {
   .container {
     display: grid;
@@ -9,25 +10,7 @@
       "sd ft ft ft ft ft";
     border: 3px solid rgb(151, 151, 125);
   }
-  article h3 {
-    text-align: center;
-    font-weight: bold;
-  }
-
-  article ul {
-    text-align: center;
-    list-style-type: none;
-  }
-
-  article h4 {
-    text-align: center;
-    font-weight: bold;
-  }
-
-  article li {
-    padding-top: 1%;
-  }
-
+  /* A nice font size for the article paragraph  */
   article p {
     font-size: 1.1em;
     margin: 0 10% 0 10%;
