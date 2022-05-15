@@ -2,12 +2,12 @@
 @media (min-width: 768px) {
   .container {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 10vh 100vh;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 0vh 90vh;
     grid-template-areas:
-      "sd main main main main main"
-      "sd main main main main main"
-      "sd ft ft ft ft ft";
+      "sd main main main main"
+      "sd main main main main"
+      "ft main main main main";
     border: 3px solid rgb(151, 151, 125);
   }
   /* A nice font size for the article paragraph  */
