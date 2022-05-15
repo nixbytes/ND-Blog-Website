@@ -2,10 +2,10 @@
         border: 2px solid red;
       } */
 
-/* * {
+* {
   border: 2px solid red;
   background: #d9d8cd;
-} */
+}
 
 /* main default of the continer for grid, mobile first  */
 .container {
@@ -26,12 +26,7 @@
 }
 
 /* Main logo image with size */
-.logo-images {
-  margin: auto;
-  padding: auto;
-  width: 35%;
-  height: 85%;
-}
+
 
 aside {
   grid-area: sd;
