@@ -28,6 +28,7 @@ To use, uncomment it
 }
 
 /* Main logo image with size */
+
 .logo-images {
   margin: auto;
   padding: auto;
@@ -47,7 +48,7 @@ aside {
 aside a:link {
   text-decoration: none;
   /* font-family: 'Roboto', sans-serif; */
-  font-family: 'Alfa Slab One', cursive;
+  font-family: "Alfa Slab One", cursive;
 }
 
 aside ul {
@@ -76,11 +77,23 @@ article {
   width: 100%;
 }
 
+article h1{
+ text-align: center;
+}
+
+article h2{
+  text-align: center;
+}
+article img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 article p {
   font-size: 1.2em;
   margin: 0px 15px 0px 15px;
   line-height: 2;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 footer {
   grid-area: ft;
