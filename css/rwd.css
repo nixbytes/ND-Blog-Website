@@ -11,8 +11,14 @@
     border: 3px solid rgb(151, 151, 125);
   }
   /* A nice font size for the article paragraph  */
+  .logo-images {
+    margin: auto;
+    padding: auto;
+    width: 35%;
+    height: 85%;
+  }
   article p {
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin: 0 10% 0 10%;
     line-height: 2;
   }
