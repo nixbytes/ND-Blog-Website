@@ -10,16 +10,22 @@
       "ft main main main main";
     border: 3px solid rgb(151, 151, 125);
   }
-  /* A nice font size for the article paragraph  */
-  .logo-images {
-    margin: auto;
-    padding: auto;
-    width: 35%;
-    height: 85%;
+
+  /* make teh size more reasonable for the page */
+  article img {
+    height: 70%;
+    width: 70%;
   }
+  aside li {
+    margin: 15%;
+    padding: 10%;
+    list-style-type: none;
+  }
+    /* A nice font size for the article paragraph  */
   article p {
     font-size: 1.2em;
     margin: 0 10% 0 10%;
     line-height: 2;
+    font-family: 'Merriweather', serif;
   }
 }

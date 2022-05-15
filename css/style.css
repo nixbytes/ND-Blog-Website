@@ -1,6 +1,14 @@
 /* Nice way to import multi way of CSS files 
 Most imports for CSS will be here  */
-
+/* 
+main style file */
 @import "main.css";
 
+/* Responsive web design rules */
 @import "rwd.css";
+
+/* For links */
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
+/* For paragraph */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
