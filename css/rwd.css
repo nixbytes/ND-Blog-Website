@@ -21,11 +21,11 @@
     padding: 10%;
     list-style-type: none;
   }
-    /* A nice font size for the article paragraph  */
+  /* A nice font size for the article paragraph  */
   article p {
     font-size: 1.2em;
     margin: 0 10% 0 10%;
     line-height: 2;
-    font-family: 'Merriweather', serif;
+    font-family: "Merriweather", serif;
   }
 }
